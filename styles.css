@@ -1,0 +1,73 @@
+body {
+    background-image: url('data:image/svg+xml,<svg width="1085" height="673" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="100%" y1="69.237%" x2="9.399%" y2="32.159%" id="a"><stop stop-color="%238A4389" stop-opacity="0" offset="0%"/><stop stop-color="%23512051" offset="100%"/><stop stop-color="%23512051" offset="100%"/><stop stop-color="%23512051" offset="100%"/></linearGradient></defs><path d="M355 800c74.356-153.934 215.022-251.268 422-292 310.466-61.099 192.94-122.724 345.47-245.025C1224.157 181.442 1330 136.116 1440 127v673H355z" transform="translate(-355 -127)" fill="url(%23a)" fill-rule="evenodd" opacity=".05"/></svg>');
+}
+
+main h1 {
+    color: hsl(300, 43%, 22%);
+    font-family: "League Spartan", sans-serif;
+    font-size: 60px;
+    font-weight: 1000;
+}
+
+.h1 {
+    width: 500px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+main p {
+    color: hsl(300, 43%, 22%);
+    opacity: 0.6;
+    font-family: "League Spartan";
+    font-size: 19px;
+    width: 450px;
+    padding-left: 150px;
+    line-height: 25px;
+    
+}
+
+.ratings {
+    position: absolute;
+    bottom: 500px;
+    left: 775px;
+    color: hsl(300, 43%, 22%);
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 900;
+}
+
+.stars {
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.rating-one {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.rating-two {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.rating-three {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 85px;
+
+}
+
