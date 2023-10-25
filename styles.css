@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('data:image/svg+xml,<svg width="1085" height="673" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="100%" y1="69.237%" x2="9.399%" y2="32.159%" id="a"><stop stop-color="%238A4389" stop-opacity="0" offset="0%"/><stop stop-color="%23512051" offset="100%"/><stop stop-color="%23512051" offset="100%"/><stop stop-color="%23512051" offset="100%"/></linearGradient></defs><path d="M355 800c74.356-153.934 215.022-251.268 422-292 310.466-61.099 192.94-122.724 345.47-245.025C1224.157 181.442 1330 136.116 1440 127v673H355z" transform="translate(-355 -127)" fill="url(%23a)" fill-rule="evenodd" opacity=".05"/></svg>');
 }
@@ -5,12 +9,12 @@ body {
 main h1 {
     color: hsl(300, 43%, 22%);
     font-family: "League Spartan", sans-serif;
-    font-size: 60px;
+    font-size: 62px;
     font-weight: 1000;
 }
 
 .h1 {
-    width: 500px;
+    width: 550px;
     padding-left: 150px;
     padding-top: 50px;
 }
@@ -19,8 +23,8 @@ main p {
     color: hsl(300, 43%, 22%);
     opacity: 0.6;
     font-family: "League Spartan";
-    font-size: 19px;
-    width: 450px;
+    font-size: 20px;
+    width: 700px;
     padding-left: 150px;
     line-height: 25px;
     
@@ -71,3 +75,72 @@ main p {
 
 }
 
+.reviews {
+    display: flex;
+    font-family: "League Spartan";
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.review-one {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 850px;
+    height: 275px;
+    margin-right: 30px;
+}
+
+.review-two {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 850px;
+    height: 275px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.review-three {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 850px;
+    height: 275px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+.review-header {
+    display: flex;
+}
+
+.review-header img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 22px;
+}
+
+.review-header p {
+    color: white;
+    font-size: 16.5px;
+    margin-top: 42px;
+    line-height: 21px;
+    font-weight: 900;
+}
+
+.review-header span {
+    color: hsl(333, 80%, 67%);
+    font-weight: 1;
+    opacity: 0.8;
+}
+
+.review {
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
